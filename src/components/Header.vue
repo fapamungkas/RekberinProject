@@ -3,7 +3,7 @@
   <div class="container">
     <header>
       <div style="">
-        <img class="img-about" src="../assets/image/img-rectangle.png" alt="" />
+        <img class="img-about w-full" src="../assets/image/img-rectangle.png" alt="" />
       </div>
       <div class="about bg-green-700">
         <h1 class="heading md:text-8xl text-4xl text-center pt-14 md:pt-24 text-white font-bold">About Us</h1>
@@ -14,39 +14,39 @@
       </div>
       <!-- Fitur -->
       <div>
-        <div class="row flex">
-          <div class="col w-1/2">
-            <h1 class="heading-satu text-8xl font-bold pt-14 pl-11">Fitur</h1>
-            <h1 class="heading-dua font-bold text-5xl text-black pt-12 pl-11">Rekberin menunjang dalam bisnis anda</h1>
-            <p class="paragraf text-black text-3xl pt-11 pl-11">Kami akan membantu anda dengan berbagai fitur yang kami berikan</p>
-            <div class="list text-green-700 pt-7 pl-11 font-bold">
-              <div class="img flex text-2xl">
-                <img class="img-space pr-2" src="../assets/image/Frame.png" alt="" />
+        <div class="row flex flex-col md:flex-row">
+          <div class="col md:w-1/2">
+            <h1 class="heading-satu md:text-8xl text-5xl md:text-gray-600 font-bold pt-14 md:pl-11 pl-28">Feature</h1>
+            <h1 class="heading-dua font-bold md:text-5xl text-3xl text-black pt-12 pl-11">Rekberin menunjang dalam bisnis anda</h1>
+            <p class="paragraf text-black md:text-3xl md:pt-11 pt-6 pl-11">Kami akan membantu anda dengan berbagai fitur yang kami berikan</p>
+            <div class="list text-green-700 pt-7 pl-11 leading-7 font-bold">
+              <div class="img flex md:text-2xl">
+                <img class="img-space pr-2 md:h-9 h-6" src="../assets/image/Frame.png" alt="" />
                 <p>Pelayanan 24 Jam</p>
               </div>
-              <div class="img flex text-2xl">
-                <img class="img-space pr-2" src="../assets/image/Frame.png" alt="" />
+              <div class="img flex md:text-2xl">
+                <img class="img-space pr-2 md:h-9 h-6" src="../assets/image/Frame.png" alt="" />
                 <p>Laporan Secara Real-Time</p>
               </div>
-              <div class="img flex text-2xl">
-                <img class="img-space pr-2" src="../assets/image/Frame.png" alt="" />
+              <div class="img flex md:text-2xl">
+                <img class="img-space pr-2 md:h-9 h-6" src="../assets/image/Frame.png" alt="" />
                 <p>Keamanan Dalam Transaksi</p>
               </div>
-              <div class="img flex text-2xl">
-                <img class="img-space pr-2" src="../assets/image/Frame.png" alt="" />
+              <div class="img flex md:text-2xl">
+                <img class="img-space pr-2 md:h-9 h-6" src="../assets/image/Frame.png" alt="" />
                 <p>Kode Unik Berbeda</p>
               </div>
             </div>
           </div>
-          <div class="col space-img flex w-1/2 bg-green-700">
-            <div class="layer max-w-sm bg-white"></div>
-            <img src="../assets/image/grafix.png" alt="" />
+          <div class="col img-space md:space-img flex md:w-1/2 md:bg-green-700 pb-20 pt-20">
+            <!-- <div class="layer md:max-w-sm bg-white h-7"></div> -->
+            <img class="md:-ml-10 ml-10" src="../assets/image/grafix.png" alt="" />
           </div>
         </div>
       </div>
       <!-- Manfaat -->
       <div>
-        <h1 class="heading text-center text-gray-800 text-5xl md:text-7xl font-bold pt-20">Manfaat</h1>
+        <h1 class="heading text-center text-gray-800 text-5xl md:text-7xl font-bold md:pt-20">Manfaat</h1>
         <div class="row flex justify-center space-x-3 md:space-x-12 text-green-700 md:text-2xl font-semibold py-12">
           <div class="col benefit-item">
             <img class="mx-auto pb-3 md:h-24 h-20" src="../assets/image/Delivery.png" alt="" />
@@ -79,25 +79,33 @@ export default {};
   height: 100px;
 } */
 
-.img img {
+/* .img img {
   height: 36px;
-}
+} */
 
 .space-img img {
   position: absolute;
   z-index: 2;
   right: 0;
-  width: 500px;
-  margin-left: -80px;
+  width: 600px;
+  margin-left: -180px;
   margin-top: 80px;
 }
 
 .layer {
-  width: 200px;
+  width: 170px;
   height: 100%;
 }
 
 .space-img .layer {
   height: 42rem;
+  height: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .img-space img {
+    width: 400px;
+    padding-right: 35px;
+  }
 }
 </style>
