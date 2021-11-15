@@ -18,3 +18,17 @@
 .p-leading {
     line-height: 3rem;
 }
+
+#container {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (max-width: 1022px) {
+    #container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

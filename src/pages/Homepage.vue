@@ -1,8 +1,9 @@
 <template>
   <Navbar />
   <Header />
+
   <!-- Content 1 -->
-  <div class="container">
+  <div id="container">
     <div class="heading text-center text-black md:text-8xl text-5xl font-bold pt-16">
       <h1>How To Work ?</h1>
     </div>
@@ -19,21 +20,23 @@
   </div>
 
   <!-- Content 2 -->
-  <div class="heading">
-    <div class="row md:flex">
-      <div class="col md:w-1/2 md:pt-52 md:pl-11 md:pr-11 px-9 pt-24">
-        <h1 class="text-green-700 text-xl font-bold">#2 Hal yang dilakukan penjual</h1>
-        <h1 class="text-black font-bold md:text-6xl text-3xl md:pt-6 pt-4">Memasukkan Detail Pesanan</h1>
-        <h1 class="text-gray-600 md:text-4xl text-lg md:pt-6 pt-2 md:p-leading">Setelah mendapatkan kabar dari admin grup, maka penjual membuat detail pesanan pembeli</h1>
-      </div>
-      <div class="col-content md:w-1/2 md:pt-20 pt-3">
-        <img src="../assets/image/invoice.png" alt="" />
+  <div id="container">
+    <div class="heading">
+      <div class="row md:flex">
+        <div class="col md:w-1/2 md:pt-52 md:pl-11 md:pr-11 px-9 pt-24">
+          <h1 class="text-green-700 text-xl font-bold">#2 Hal yang dilakukan penjual</h1>
+          <h1 class="text-black font-bold md:text-6xl text-3xl md:pt-6 pt-4">Memasukkan Detail Pesanan</h1>
+          <h1 class="text-gray-600 md:text-4xl text-lg md:pt-6 pt-2 md:p-leading">Setelah mendapatkan kabar dari admin grup, maka penjual membuat detail pesanan pembeli</h1>
+        </div>
+        <div class="col-content md:w-1/2 md:pt-20 pt-3">
+          <img src="../assets/image/invoice.png" alt="" />
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Content 3  -->
-  <div class="container">
+  <div id="container">
     <div class="row md:flex">
       <div class="col-content md:w-1/2 pt-5 md:pt-24">
         <img src="../assets/image/card-order.png" alt="" />
@@ -47,9 +50,9 @@
   </div>
 
   <!-- Content 4 -->
-  <div>
+  <div id="container">
     <div class="row md:flex">
-      <div class="col md:w-1/2 md:pt-52 pt-20 md:pl-11 md:pr-11 px-9 pt-24">
+      <div class="col md:w-1/2 md:pt-52 pt-20 md:pl-11 md:pr-11 px-9">
         <h1 class="text-green-700 text-xl font-bold">#4 Paket dalam perjalanan</h1>
         <h1 class="text-black font-bold md:text-6xl text-3xl md:pt-6 pt-4">Penjual Mengirim Pesanan</h1>
         <h1 class="text-gray-600 md:text-4xl text-lg md:pt-6 pt-2">Pembayaran terkonfirmasi dan pesananpun dikirimkan oleh penjual</h1>
@@ -61,7 +64,7 @@
   </div>
 
   <!-- Content 5 -->
-  <div>
+  <div id="container">
     <div class="row md:flex">
       <div class="col-content md:w-1/2 md:pt-7 pt-2">
         <img src="../assets/image/friends.png" alt="" />
