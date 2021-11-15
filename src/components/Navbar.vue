@@ -44,7 +44,7 @@
             </p>
             <button class="bg-green-600 hover:bg-green-800 text-white font-bold py-3 px-12 mt-5 rounded">Daftar</button>
           </div>
-          <div class="w-full md:pt-18 pt-14 px-20 md:pr-8 md:w-1/3 flex justify-center">
+          <div class="w-full md:pt-18 pt-14 px-20 md:pr-8 md:w-1/2 flex justify-center">
             <img class="img" src="../assets/image/img-header.png" alt="" />
           </div>
         </div>
