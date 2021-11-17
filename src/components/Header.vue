@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="col img-space md:space-img flex md:w-1/2 md:bg-green-700 pb-20 pt-20">
-        <img class="md:-ml-10 ml-10" src="../assets/image/grafix.png" alt="" />
+        <img class="md:-pl-10 pl-10" src="../assets/image/grafix.png" alt="" />
       </div>
     </div>
   </div>
@@ -71,14 +71,6 @@ export default {};
 .heading-satu {
   color: #4d4d4d;
 }
-
-/* .benefit-item img {
-  height: 100px;
-} */
-
-/* .img img {
-  height: 36px;
-} */
 
 .space-img img {
   position: absolute;
